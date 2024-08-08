@@ -41,15 +41,23 @@ To get started with the Credit Repayment Scheduler, follow these steps:
 1. **Navigate to the Project Directory:**
    ```bash
    git clone https://github.com/yourusername/credit-repayment-scheduler.git
+   ```
 2. **Clone the Repository:**
   ```bash
   cd credit-repayment-scheduler
+   ```
 3. **Install Dependencies:**
   ```bash
   npm install
+  ```
 4. **Start the Development Server:**
   ```bash
   npm start
+   ```
+## Node.js Version
+
+This project was developed and tested with the following Node.js version:
+v22.2.0
   
   
 
