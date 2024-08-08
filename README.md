@@ -38,13 +38,13 @@ Capital Payment = Monthly Payment - Interest Payment
 
 To get started with the Credit Repayment Scheduler, follow these steps:
 
-1. **Navigate to the Project Directory:**
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/yourusername/credit-repayment-scheduler.git
    ```
-2. **Clone the Repository:**
-  ```bash
-  cd credit-repayment-scheduler
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd credit-calculator
    ```
 3. **Install Dependencies:**
   ```bash
