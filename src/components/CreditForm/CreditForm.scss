@@ -1,0 +1,24 @@
+.credit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  gap: 20px;
+}
+
+.input-row > div {
+  flex: 1;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

@@ -1,13 +1,19 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
+import { Suspense, lazy } from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import NxWelcome from './nx-welcome';
+const LazyCreditCalculator = lazy(() => {
+  return import('../pages/CreditCalculator/CreditCalculator');
+}); 
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="credit-calculator" />
-    </div>
+    <Router>
+      <Suspense fallback="Loading...">
+        <Routes>
+          <Route path="/" element={<LazyCreditCalculator />} />
+        </Routes>
+      </Suspense>
+    </Router>
   );
 }
 
