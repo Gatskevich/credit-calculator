@@ -1,4 +1,4 @@
-# Credit Repayment Scheduler
+# Credit Calculator
 
 ## Overview
 
