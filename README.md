@@ -9,23 +9,20 @@ The Credit Repayment Scheduler is a web application designed to help users visua
 - **Monthly Payment Calculation:** Computes the monthly payment amount based on the credit amount, term, and interest rate.
 - **Detailed Breakdown:** Shows how each monthly payment is split between the capital and interest.
 - **Pagination:** Allows navigation through the repayment schedule month by month.
+- **Responsive Design:** Optimized for various screen sizes and devices.
 
 ## How It Works
 
 ### Zero Interest Rate
 
 When the interest rate is 0%, the monthly payment is calculated as:
-\[
-\text{Monthly Payment} = \frac{\text{Credit Amount}}{\text{Term}}
-\]
+Monthly Payment = Credit Amount / Term
 Each month, the same amount is paid towards the credit, reducing the balance accordingly.
 
 ### With Interest Rate
 
 When there is an interest rate, the monthly payment is calculated using the formula:
-\[
-\text{Monthly Payment} = \frac{P \times r}{1 - (1 + r)^{-n}}
-\]
+Monthly Payment = P \* r / (1 - (1 + r)^(-n))
 where:
 
 - \( P \) is the principal amount (credit),
@@ -33,10 +30,6 @@ where:
 - \( n \) is the total number of payments (term in months).
 
 Each month, the interest payment is:
-\[
-\text{Interest Payment} = \text{Remaining Balance} \times r
-\]
+Interest Payment = Remaining Balance \* r
 and the capital payment is:
-\[
-\text{Capital Payment} = \text{Monthly Payment} - \text{Interest Payment}
-\]
+Capital Payment = Monthly Payment - Interest Payment
