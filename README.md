@@ -39,7 +39,7 @@ To get started with the Credit Repayment Scheduler, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git https://github.com/Gatskevich/credit-calculator.git
+   git clone https://github.com/Gatskevich/credit-calculator.git
    ```
 2. **Navigate to the Project Directory:**
    ```bash
