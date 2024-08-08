@@ -9,7 +9,6 @@ The Credit Repayment Scheduler is a web application designed to help users visua
 - **Monthly Payment Calculation:** Computes the monthly payment amount based on the credit amount, term, and interest rate.
 - **Detailed Breakdown:** Shows how each monthly payment is split between the capital and interest.
 - **Pagination:** Allows navigation through the repayment schedule month by month.
-- **Responsive Design:** Optimized for various screen sizes and devices.
 
 ## How It Works
 
